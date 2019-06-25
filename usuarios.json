@@ -1,0 +1,4 @@
+/* Los usuarios para acceder a las aplicaciones son */
+[{"contrasena":12345,"correo":"diegoga@gmail.com","nombre":"Diego Gamba"},
+{"contrasena":98765,"correo":"administrador@admin.com","nombre":"Administrador"},
+{"contrasena":678910,"correo":"usuario1@gmail.com","nombre":"Usuario"}]

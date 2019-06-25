@@ -1,0 +1,136 @@
+body, h1{
+    margin: 0px;
+}
+.panel-catalogo-productos, .panel-detalle-producto, .panel-pedido-producto{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.imagen-fondo-principal{
+    background-image: url('./assets/img/main-fondo.jpg');
+    height: 100%;
+}
+.container-info{
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.ocultar-elemento{
+    display: none !important;
+}
+.mostrar-elemento-block{
+    display: block;
+}
+.mostrar-elemento-inline{
+    display: inline;
+}
+.container-info > *{
+    width: 47%;
+    margin: 10px;
+}
+
+.controles-item *{
+    margin-right: 5px;
+}
+
+/*Iniciar sesion*/
+.campo-formulario > *{
+    display: block;
+}
+.form-login span{
+    color: red;
+    text-shadow: 1.2px 1.5px black;
+}
+.container-login{
+    background-image: url('./assets/img/login-fondo.jpg');
+    background-repeat: no-repeat;
+    height: 630px;
+    padding-top: 10%;
+}
+.form-login label, .form-login h1{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.form-login h1{
+    text-align: center;
+}
+.form-login{
+    width: 25%;
+    margin: 0 auto;
+}
+.form-login input{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form-login button{
+    margin-top: 12px;
+    margin-left: 38%;
+}
+
+/*Catalogo*/
+.panel-catalogo-productos .formulario-buscar *{
+    display: block;
+    margin-right: 15px;
+}
+
+.panel-catalogo-productos .panel-heading {
+    height: 78px;
+}
+
+.panel-catalogo-productos .panel-body{
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.panel-catalogo-productos .item-producto{
+    width: 31%;
+    margin: 10px;
+}
+
+/*Item Producto*/
+.panel-item-producto .imagen-producto{
+    height: 156px;
+}
+
+.panel-item-producto input{
+    width: 45px;
+    height: 33px;
+}
+
+.panel-item-producto .panel-body div{
+    width: 100%;
+}
+
+/*Barra de Navegacion*/
+.barra-navegacion{
+    background: #e89381;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: -1px;
+}
+
+/*Pedidos Producto*/
+
+.panel-pedido-producto .imagen-pedidos{
+    width: 80px;
+}
+
+/*Detalle Producto*/
+.panel-detalle-producto img{
+    width: 100%;
+    border: 1px solid #dadaf3;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.panel-detalle-producto ul{
+    list-style: none;
+}
+.panel-detalle-producto a{
+    margin-left: 9px;
+}
